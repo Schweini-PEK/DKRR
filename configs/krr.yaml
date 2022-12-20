@@ -1,0 +1,15 @@
+general:
+  logfile: 'log_krr.txt'
+
+training:
+  dataset: 'CT'
+  kernel: 'null'
+  save_path: 'results/bessel/'
+
+hparams:
+  sigmas: [5]
+  nus: [1]
+  alpha: 0.1
+  k: 0
+  seed: 7
+  trials: 1
